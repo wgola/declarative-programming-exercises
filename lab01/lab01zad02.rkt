@@ -1,5 +1,7 @@
 #lang racket
 
+;zadanie 2
+
 (define (new.< x y) (< x y) )
 (define (new.> x y) (< y x) )
 (define (new.= x y) (and (not (< x y)) (not (< y x))))
