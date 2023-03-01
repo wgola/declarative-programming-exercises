@@ -1,5 +1,7 @@
 #lang racket
 
+;zadanie 7
+
 (define (fibonacci n)
     (cond 
         ((= n 0) 0)
