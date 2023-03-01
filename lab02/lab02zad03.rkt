@@ -1,5 +1,7 @@
 #lang racket
 
+;zadanie 8
+
 (define (exp b e)
     (define (square x)
         (* x x)) 
