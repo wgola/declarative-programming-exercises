@@ -1,6 +1,6 @@
 #lang racket
 
-;zadanie 25
+;zadanie 24
 
 (define (fold f e l)
     (if (null? l)

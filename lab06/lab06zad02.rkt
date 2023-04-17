@@ -1,6 +1,6 @@
 #lang racket
 
-;zadanie 26
+;zadanie 25
 
 (define (fibonacci n)
     (define (multiply-matrix m1 m2)
