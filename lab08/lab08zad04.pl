@@ -1,4 +1,4 @@
-# zadanie 5
+% zadanie 5
 
 plus(A, B, C) :- C is A + B.
 

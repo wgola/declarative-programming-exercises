@@ -1,4 +1,4 @@
-# zadanie 2
+% zadanie 2
 
 child(X, Y) :- parent(Y, X).
 mother(X, Y) :- parent(X, Y), female(X).
