@@ -1,3 +1,5 @@
+# zadanie 5
+
 plus(A, B, C) :- C is A + B.
 
 times(A, B, C) :- C is A * B.

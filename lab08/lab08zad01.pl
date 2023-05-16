@@ -1,3 +1,5 @@
+# zadanie 1
+
 member([H|T], H).
 member([_|T], H) :- member(T, H).
 
