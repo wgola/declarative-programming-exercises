@@ -63,5 +63,10 @@ successor(X, [_|Tail], Res) :- successor(X, Tail, Res).
 
 % k) q(X,L1,L2), which is fulfilled if L2 is the beginning of the list L1 up to the (first) double occurence of element X. 
 
-q(X, [X,X|_], [_|[X,X]]).
-
+q(_, [], []).
+q(X, L1, L2) :- q(X, L1, [], L2).
+q(X, [X, X|_], Acc, Res) :-
+    !, append(Acc, [X, X], Res).
+q(X, [Head|Tail], Acc, Res) :-
+    append(Acc, [Head], Acc2),
+    q(X, Tail, Acc2, Res).

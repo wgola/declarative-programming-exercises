@@ -6,3 +6,5 @@ compiled/
 \#*
 .\#*
 *.txt
+prolog/
+racket/
